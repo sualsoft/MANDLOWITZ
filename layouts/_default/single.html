@@ -1,0 +1,82 @@
+{{define "main"}}
+<section class="single">
+  {{with .Params.hero}}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9 text-center">
+        <h2>{{.title}}</h2>
+        <p>{{.sub_title}}</p>
+        <p>
+          <span> {{.content}} </span>
+        </p>
+        {{with .btn}}
+        <div class="btn-black mb-4">
+          <a href="{{.main_link}}" target="_blank" class="big"
+            >{{.main_label}}</a
+          >
+          <br />
+          <p>
+            {{.sub_label}}
+            <a href=" {{.sub_link}}" class="small"
+              ><u>{{.sub_label_link}}</u></a
+            >
+          </p>
+        </div>
+
+        {{end}}
+        <p>
+          <span> {{.texts}} </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  {{end}}
+</section>
+
+<section class="modules pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+      {{range .Params.modules}}
+      <div class="col-md-9 text-center mt-4 bg-module">
+        <h2>{{.title | safeHTML}}</h2>
+        <p>{{.content}}</p>
+        <h2>We will cover:</h2>
+        {{range.covers}}
+        <p>{{.}}</p>
+        {{end}}
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+
+<section class="single pt-0 pb-0">
+  {{with .Params.hero}}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9 text-center">
+        {{with .btn}}
+        <div class="btn-black mb-4" style="background-color: #fff">
+          <a
+            href="{{.main_link}}"
+            target="_blank"
+            class="big"
+            style="color: #000"
+            >{{.main_label}}</a
+          >
+          <br />
+          <p style="color: #000">
+            {{.sub_label}}
+            <a href=" {{.sub_link}}" class="small" style="color: #000"
+              ><u>{{.sub_label_link}}</u></a
+            >
+          </p>
+        </div>
+
+        {{end}}
+      </div>
+    </div>
+  </div>
+  {{end}}
+</section>
+{{end}}
