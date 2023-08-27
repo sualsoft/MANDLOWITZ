@@ -8,7 +8,7 @@ hero:
   sub_title: WSIB Education Program for Employers
   content: MODULE 4 – RETURN TO WORK $225 (PLUS TAX)
   btn:
-    main_label: CLICK HERE TO PURCHASE
+    main_label: Click Here To Purchase
     main_link: https://buy.stripe.com/8wM8yudw27Vu3uwbIL
     sub_label: By purchasing this course, you agree to our
     sub_label_link: Terms & Conditions

@@ -8,7 +8,7 @@ hero:
   sub_title: WSIB Education Program for Employers
   content: FULL BUNDLE - 10% Discount for OOHNA Members GET ALL 6 MODULES FOR $1,215 (regular $1,350) + TAX
   btn:
-    main_label: CLICK HERE TO PURCHASE
+    main_label: Click Here To Purchase
     main_link: https://buy.stripe.com/4gwg0WcrYgs05CE8wC?prefilled_promo_code=OOHNA23
     sub_label: By purchasing this course, you agree to our
     sub_label_link: Terms & Conditions

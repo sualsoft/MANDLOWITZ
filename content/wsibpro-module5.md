@@ -8,7 +8,7 @@ hero:
   sub_title: WSIB Education Program for Employers
   content: MODULE 5 – CLAIMS MANAGEMENT 1 $225 (PLUS TAX)
   btn:
-    main_label: CLICK HERE TO PURCHASE
+    main_label: Click Here To Purchase
     main_link: https://buy.stripe.com/6oE01YfEa0t29SUfZ2
     sub_label: By purchasing this course, you agree to our
     sub_label_link: Terms & Conditions

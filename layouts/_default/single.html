@@ -11,9 +11,11 @@
         </p>
         {{with .btn}}
         <div class="btn-black mb-4">
-          <a href="{{.main_link}}" target="_blank" class="big"
+          <br>
+          <a href="{{.main_link}}" target="_blank" class="big btn-primary btn-lg mb-4" 
             >{{.main_label}}</a
           >
+          <br />
           <br />
           <p>
             {{.sub_label}}
@@ -56,14 +58,15 @@
     <div class="row justify-content-center">
       <div class="col-md-9 text-center">
         {{with .btn}}
-        <div class="btn-black mb-4" style="background-color: #fff">
+        <div class="mb-4" >
+          <br>
           <a
             href="{{.main_link}}"
             target="_blank"
-            class="big"
-            style="color: #000"
+            class="btn-primary btn-lg "
             >{{.main_label}}</a
           >
+          <br />
           <br />
           <p style="color: #000">
             {{.sub_label}}

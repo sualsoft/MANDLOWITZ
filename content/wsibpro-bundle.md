@@ -8,7 +8,7 @@ hero:
   sub_title: WSIB Education Program for Employers
   content: FULL BUNDLE GET ALL 6 MODULES FOR $1,350 (PLUS TAX)
   btn:
-    main_label: CLICK HERE TO PURCHASE
+    main_label: Click Here To Purchase
     main_link: https://buy.stripe.com/4gwg0WcrYgs05CE8wC
     sub_label: By purchasing this course, you agree to our
     sub_label_link: Terms & Conditions
