@@ -1,6 +1,8 @@
 ---
 title: Terms and Conditions
 layout: terms
+draft: false
+sitemapExclude: true
 ---
 
 
